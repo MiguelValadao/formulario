@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    width: 50%;
+    height: 100vh;
+    background-color: lightgrey;
+    display: grid;
+    grid-template-rows: 5;
+    grid-template-columns: 1;
+}
