@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
 }
+
+
 
 body {
     display: flex;
@@ -9,11 +14,54 @@ body {
     justify-content: center;
 }
 
+#titulo {
+    font-size: 25px;
+}
+
 .formulario {
-    width: 50%;
-    height: 100vh;
+    width: 30%;
+    height: 50vh;
     background-color: lightgrey;
     display: grid;
-    grid-template-rows: 5;
+    grid-template-rows: 7;
     grid-template-columns: 1;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.formulario div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario label {
+    margin-right: 3%;
+    font-size: 20px;
+}
+
+.formulario input {
+    width: 60%;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+#btn {
+    width: 30%;
+    height: 70%;
+    border-radius: 10px;
+    border: solid 1px;
+    background-color: white;
+    font-size: 20px;
+    transition: ease 0.3s;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: lightblue;
+    transition: ease 0.3s;
+    scale: 110%;
 }
