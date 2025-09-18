@@ -113,6 +113,6 @@ document.getElementById("codigo").addEventListener("input", ()=>{
 });
 
 function alertar() {
-    document.getElementById("btn")
-    alert("segue")
+    alert("Formulário enviado com sucesso!")
+    console.log("Formuláro enviado com sucesso!")
 }
