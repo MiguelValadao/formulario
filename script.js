@@ -113,6 +113,9 @@ document.getElementById("codigo").addEventListener("input", ()=>{
 });
 
 function alertar() {
-    document.getElementById("btn")
+    if(getElementByTag("input").value != ""){
+         document.getElementById("btn")
     alert("segue")
+    }
+   
 }

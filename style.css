@@ -6,20 +6,24 @@
     font-family: 'Questrial', sans-serif;
 }
 
+form {
+    width: 100%;
+}
 
 
 body {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100dvh;
 }
 
 #titulo {
     font-size: 25px;
 }
 
-.formulario {
-    width: 30%;
+form .formulario {
+    width: 100%;
     height: 50vh;
     background-color: lightgrey;
     display: grid;
@@ -30,7 +34,7 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.formulario div {
+form .formulario div {
     display: flex;
     align-items: center;
     justify-content: center;
