@@ -115,7 +115,6 @@ document.getElementById("codigo").addEventListener("input", ()=>{
 function alertar() {
     if(getElementByTag("input").value != ""){
          document.getElementById("btn")
-    alert("segue")
+    alert("Formulário enviado com sucesso!")
     }
-   
 }
